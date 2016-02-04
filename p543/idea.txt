@@ -1,0 +1,10 @@
+Using Goldbach's conjecture and the fact we can use 2 as we need:
+P(n,k)=1 for k>2 and n>=k*2
+Using common sense:
+P(n,k)=0 for k>2 and n<k*2
+P(n,1)=1 for prime n, P(n,1)=0 otherwise
+P(n,2) is the question
+
+P(n,1)+P(n,2)=2 for prime twins (n-2, n) only
+P(n,1)+P(n,2)=1 if n is prime but the above doesn't hold; or if n is even
+P(n,1)+P(n,2)=0 otherwise
